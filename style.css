@@ -83,37 +83,17 @@ body {
     margin-top: 20px;
   }
   
-  .column--backlog,
-  .column--in-progress,
-  .column--done,
-  .column--trashcan {
+  .task-column{
     padding: 10px;
+    
   }
-  
-  .column--backlog h3 {
-    background: #b0b0b0;
-    color: #707070;
-  }
-  
-  .column--in-progress h3 {
-    background: #6ea8fe;
-    color: #0056b3;
-  }
-  
-  .column--done h3 {
-    background: #76c893;
-    color: #2e7d32;
-  }
-  
-  .column--trashcan h3 {
-    background: #e57373;
-    color: #b71c1c;
-  }
-  
-  .column--backlog h3,
+
+  .task-column h3,
   .column--in-progress h3,
   .column--done h3,
   .column--trashcan h3 {
+    background: #b0b0b0;
+    color: #707070;
     display: inline-block;
     text-align: center;
     padding: 10px 15px;
@@ -126,7 +106,7 @@ body {
     list-style: none;
     padding: 0;
   }
-  
+
   .task {
     padding: 25px;
     margin: 10px 0;
@@ -135,7 +115,7 @@ body {
     font-size: 20px;
   }
   
-  .column--backlog .task {
+  .task-column .task {
     background: linear-gradient(to right, #b0b0b0 3%, #ffffff 1%);
   }
   
